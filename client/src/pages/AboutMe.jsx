@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../Components/Navbar'
+import Navbar from '../Components/Navbar';
 import BG from '../Components/bg4.avif'
 import './AboutMe.css'
 import Footer from '../Components/Footer'
