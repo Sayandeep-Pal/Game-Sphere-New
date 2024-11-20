@@ -18,7 +18,7 @@ import Navbar from '../Components/Navbar';
 const MainPage = () => {
 
   const { id } = useParams();
-  const URL = 'http://localhost:3000';
+  const URL = 'https://game-sphere-backend.vercel.app';
 
   useEffect(() => {
     AOS.init({
