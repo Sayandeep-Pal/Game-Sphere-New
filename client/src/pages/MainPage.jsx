@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './MainPage.css'
-import Footer from '../Components/Footer'
+import Footer from '../components/Footer';
 import logo from '../Components/transperantlogo.png'
 import img1 from '../Components/cargame.png'
 import img2 from '../Components/FPSlogo.png'
