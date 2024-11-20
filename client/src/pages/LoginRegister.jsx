@@ -11,7 +11,7 @@ import { useParams } from "react-router-dom";
 
 
 const LoginRegister = () => {
-    const URL = "https://game-sphere-backend.vercel.app/";
+    const URL = "https://game-sphere-backend.vercel.app";
 
     // Toggle between login and registration mode
     const [action, setAction] = useState('');
