@@ -1,8 +1,8 @@
 import React from 'react'
-import Navbar from '../Components/Navbar';
+import Navbar from '../components/navbar';
 import BG from '../Components/bg4.avif'
 import './AboutMe.css'
-import Footer from '../components/Footer';
+import Footer from '../components/footer';
 const AboutMe = () => {
   return (
     <div>
