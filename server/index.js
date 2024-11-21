@@ -16,6 +16,10 @@ mongoose.connect(
   "mongodb+srv://sayandeep123:babusona@cluster0.0qugd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 );
 
+app.get("/", (req,res) =>{
+  res.json("This is Backend.");
+})
+
 const bcrypt = require("bcryptjs"); // Import bcrypt for password hashing
 
 app.post("/createUser", async (request, response) => {
