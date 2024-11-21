@@ -1,7 +1,7 @@
 .bg{
     height: 150vh;
     width: 100%;
-    background: url(../Components/bg4.avif) no-repeat;
+    background: url(./bg4.avif) no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
