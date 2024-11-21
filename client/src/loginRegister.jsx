@@ -74,14 +74,14 @@ const LoginRegister = () => {
 
         axios.get(`${URL}/loginUser/${email}/${password}`)
             .then(res => {
-                if(res.data._id !== "undefined"){
+                if(res.data._id === "undefined"){
+                    toast.error("Invalid email or password!");
+                }
+                else{
                     localStorage.setItem("user", JSON.stringify(res.data));
                     toast.success("Login successful!")
                     console.log(res)
                     window.location.href = `/mainContent/${res.data._id}`;
-                }
-                else{
-                    toast.error("Invalid email or password!");
                 }
                 
             })
