@@ -74,7 +74,7 @@ const LoginRegister = () => {
 
         axios.get(`${URL}/loginUser/${email}/${password}`)
             .then(res => {
-                if(res.data){
+                if(res.data._id !== "undefined"){
                     localStorage.setItem("user", JSON.stringify(res.data));
                     toast.success("Login successful!")
                     console.log(res)
