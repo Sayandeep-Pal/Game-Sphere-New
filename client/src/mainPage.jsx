@@ -2,18 +2,18 @@ import React, { useEffect, useState } from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './MainPage.css'
-import Footer from '../components/footer.jsx';
+import Footer from './footer.jsx';
 import logo from '../Components/transperantlogo.png'
 import img1 from '../Components/cargame.png'
 import img2 from '../Components/FPSlogo.png'
-import ssImages from '../Components/screenshots'; // Assuming ss1 - ss8 images imported here.
-import Beats from '../components/beats.jsx';
+import ssImages from './screenshots.jsx'; // Assuming ss1 - ss8 images imported here.
+import Beats from './beats.jsx';
 import { Link, useParams } from 'react-router-dom'
 import CarGame from './My Car.apk'
 import Loading from './loading.jsx';
-import GameSphere from '../components/gameSphere.jsx';
+import GameSphere from './gameSphere.jsx';
 import axios from 'axios';
-import Navbar from '../components/navbar.jsx';
+import Navbar from './navbar.jsx';
 
 const MainPage = () => {
 

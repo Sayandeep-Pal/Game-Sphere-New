@@ -90,10 +90,10 @@ const LoginRegister = () => {
 
     return (
         <>
-            <nav class="navbar fixed-top bg-body-tertiary" data-bs-theme="dark">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#">
-                        <img src={logo} alt="Logo" width="30" height="24" class="d-inline-block align-text-top" />
+            <nav className="navbar fixed-top bg-body-tertiary" data-bs-theme="dark">
+                <div className="container-fluid">
+                    <a className="navbar-brand" href="#">
+                        <img src={logo} alt="Logo" width="30" height="24" className="d-inline-block align-text-top" />
                         Game Sphere
                     </a>
                 </div>
