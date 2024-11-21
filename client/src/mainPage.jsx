@@ -9,7 +9,7 @@ import img2 from './FPSlogo.png'
 import ssImages from './screenshots.jsx'; // Assuming ss1 - ss8 images imported here.
 import Beats from './beats.jsx';
 import { Link, useParams } from 'react-router-dom'
-import CarGame from './base.apk'
+// import CarGame from 'https://github.com/Sayandeep-Pal/Game-Sphere-New/releases/tag/v1.0.0/base.apk'
 import Loading from './loading.jsx';
 import GameSphere from './gameSphere.jsx';
 import axios from 'axios';
@@ -82,7 +82,7 @@ const MainPage = () => {
               <h1 className="title">My Car</h1>
               <img src={img1} className='car-img' alt="My Car game preview" />
               <div className="desc">My Car is an open-world car controller mobile game. Explore the city and enjoy the game.</div>
-              <a download href={CarGame}><button className="see-more btn1 fa fa-download">Get</button></a>
+              <a download href='https://github.com/Sayandeep-Pal/Game-Sphere-New/releases/tag/v1.0.0/base.apk'><button className="see-more btn1 fa fa-download">Get</button></a>
             </div>
 
             {/* Carousel Component */}
