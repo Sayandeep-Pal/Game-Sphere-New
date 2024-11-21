@@ -6,7 +6,7 @@ import { IoIosMail } from "react-icons/io";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-import logo from "../Components/transperantlogo.png";
+import logo from "./transperantlogo.png";
 import { useParams } from "react-router-dom";
 
 

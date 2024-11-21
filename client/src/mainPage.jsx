@@ -3,9 +3,9 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './MainPage.css'
 import Footer from './footer.jsx';
-import logo from '../Components/transperantlogo.png'
-import img1 from '../Components/cargame.png'
-import img2 from '../Components/FPSlogo.png'
+import logo from './transperantlogo.png'
+import img1 from './cargame.png'
+import img2 from './FPSlogo.png'
 import ssImages from './screenshots.jsx'; // Assuming ss1 - ss8 images imported here.
 import Beats from './beats.jsx';
 import { Link, useParams } from 'react-router-dom'

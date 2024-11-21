@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url('../Components/transperantlogo.png')
+    background: url('./transperantlogo.png')
   no-repeat;
   background-size: cover;
   background-position: center;
