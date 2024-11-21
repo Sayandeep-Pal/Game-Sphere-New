@@ -45,7 +45,7 @@ const MainPage = () => {
         })
         .catch(err => {
           console.error(err);
-          setError('An error occurred while fetching user data.');
+          setError('An error occurred while fetching user data.(Invalid Email or Password)');
         });
     } else {
       setError('Invalid user ID.');
@@ -57,7 +57,7 @@ const MainPage = () => {
     return (
       <div className="error-page">
         <h1>Error</h1>
-        <p>{error}</p>
+        <h3>{error}</h3>
       </div>
     );
   }
